@@ -10,10 +10,10 @@
     },
     "ios": {
       "supportsTablet": true,
-      "bundleIdentifier": "com.example.with-new-arch"
+      "bundleIdentifier": "com.example.paper-button-disabled-bug"
     },
     "android": {
-      "package": "com.example.withnewarch"
+      "package": "com.example.paperbuttondisabledbug"
     },
     "plugins": [
       [
@@ -27,6 +27,11 @@
           }
         }
       ]
-    ]
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "2f6c65ca-408c-4f30-8bd5-35999a03d75a"
+      }
+    }
   }
 }
